@@ -12,7 +12,7 @@ n = 3527586557561636031306564758641622390043446634591203989513069596722390553298
 dp = 13530055667815347122266109008252377134325151556131892235929064596659462917644020624855537451062167377041847601387880412738836767351591511886432133011921729
 c = 23428056833770750219439218340180501853506449797628734848807388355447212714387039203998085387476974936419607861041793755542930286287098871510394661091846780839592290953853536571372997807697657464569729651718518301857979495046280018444198435962234642736892075369840282923945267377104440625478468507147243879631
 ```
-So we have the modulus 'n', the public exponent 'e', a CRT exponent 'dp' ( Chinese Remainder Theorem exponent) which is used for fast decryption and encryption by some algorithms and is equal to d mod (p - 1). Finally the c number corresponds to the ciphertext we want to decipher.
+So we have the modulus 'n', the public exponent 'e', a CRT exponent 'dp' ( Chinese Remainder Theorem exponent) which is used for fast decryption by some algorithms and is equal to d mod (p - 1). Finally the c number corresponds to the ciphertext we want to decipher.
 
 Looking at the hints, we may have to, somehow, obtain a multiple of p so that we can factorize n. It seemed not an easy task, but looking at the dp value, I figured i could , at least, get a multiple of p - 1.
 ```
@@ -24,9 +24,9 @@ dp*e - 1 = 0 mod (p - 1) = kp*(p-1) mod (p - 1)
 Which means that dp*e - 1 is a multiple of p - 1. Now here comes the tricky part, how do we find a way to factorize n without having p? 
 
 According to the paper ["A new attack on RSA and CRT-RSA"
-](http://www.math.unicaen.fr/~nitaj/rsa21.pdf) by Abderrahmane Nitaj, I found out that there is a way to retrieve p having access to dp. In a simple way, the expression is:
+](http://www.math.unicaen.fr/~nitaj/rsa21.pdf) by Abderrahmane Nitaj, there is a way to retrieve p having access to dp. In a simple way, the expression is:
 ```
-p = gcd(edp + kp − 1, N)
+p = gcd(dp*e + kp − 1, N)
 ```
 The only unknown parameter here is kp. To find kp I wrote a script that would brute force the values of kp, by checking if p calculated is a prime number:
 ```python
