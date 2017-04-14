@@ -39,8 +39,8 @@ factors = [[2,2], [3,1], [5,1], [7,1], [137,1], [593,1], [24337,1],
 # Too lazy to implement, so I did it manually
 co_factors = 3 * 5 * 7 * 137 * 593 * 24337 * 25589 * 3637793 * 5733569 * 106831998530025000830453 * 1975901744727669147699767
 
-Q = h*Q
-P = h*P
+Q = co_factors*Q
+P = co_factors*P
 
 discrete_log_rho(Q,P,ord=2, operation='+')
 

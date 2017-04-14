@@ -46,7 +46,10 @@ Factors:
 ```
 Now the next step, is to calculate each partial logarithm. For example, the first logarithm is modulo 2^2 since it is the first factor. To do this, we multiply the co-factors (i.e all the other factors excluding 2^2) with the point P. Then, calculate the logarithm. I used SageMath discrete_log_rho for this:
 ```python
-co-factors = 3 * 5 * 7 * 137 * 593 * 24337 * 25589 * 3637793 * 5733569 * 106831998530025000830453 * 1975901744727669147699767
+co_factors = 3 * 5 * 7 * 137 * 593 * 24337 * 25589 * 3637793 * 5733569 * 106831998530025000830453 * 1975901744727669147699767
+
+P = co_factors*P
+Q = co_factors*Q
 
 discrete_log_rho(Q,P,ord = 2, operation='+') = 2
 ```
