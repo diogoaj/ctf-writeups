@@ -32,7 +32,7 @@ if __name__ == '__main__':
     print(codecs.decode(hex(M).replace("0x", "").replace("L", ""), "hex"))    
 ```
 
-Decoding the image we get the flag:
+Decoding the value we get the flag:
 ```
 broadcast_with_small_e_is_killer_16126509732
 ```

@@ -31,7 +31,7 @@ Which is equal to: ```2525520505402437178389660503926710183797241905596963639342
 
 Then what I did was research what type of problem we have in hands here. I found out that this is a [Discrete Log](https://en.wikipedia.org/wiki/Discrete_logarithm) problem because we want to find the integer n that satisfies: ``` Q = nP ```. We have both points Q and P so now we just need to find n. That are a lot of algorithms to do this but, for this specific problem, none of them will actually work since the values we have are really large. 
 
-Another thing I found out in my research is that there are possible attacks on elliptic curves but it involves that certain conditions are met. For example, if the prime M from the elliptic curve equation is equal to the [order of the curve](https://en.wikipedia.org/wiki/Counting_points_on_elliptic_curves), the curve is said to be anomalous and, the discrete log is very easy to compute. So what I did was check that ```E.order() == M``` which, unfortunately, returned ```False```.
+Another thing I found out in my research is that there are possible attacks on elliptic curves but it involves that certain conditions are met. For example, if the prime M from the elliptic curve equation is equal to the [order of the curve](https://en.wikipedia.org/wiki/Counting_points_on_elliptic_curves), the curve is said to be anomalous and, the discrete log is very easy to compute. So what I did was check if ```E.order() == M``` which, unfortunately, returned ```False```.
 
 After a couple of days banging my head on this problem, I came across a [paper](https://link.springer.com/chapter/10.1007/BFb0052240) that talked about **PohIig-Hellman Decomposition and Pollard's Methods** and how that can be used to calculate the discrete logarithm, and that's what I did.
 
@@ -44,7 +44,7 @@ Now let's factorize the order. I used [factordb](http://www.factordb.com/) for t
 Factors:
 2^2 · 3 · 5 · 7 · 137 · 593 · 24337 · 25589 · 3637793 · 5733569 · 106831998530025000830453 · 1975901744727669147699767
 ```
-Now the next step, is to calculate each partial logarithm. For example, the first logarithm is modulo 2^2 since it is the first factor. To do this, we multiply the co-factors (i.e all the other factors excluding 2^2) with the point P. Then, calculate the logarithm. I used SageMath discrete_log_rho for this:
+Now the next step, is to calculate each partial logarithm. For example, the first logarithm is modulo 2^2 since it is the first factor. To do this, we multiply the co-factors (i.e all the other factors excluding 2^2) with the point P and Q. Then, calculate the logarithm. I used SageMath discrete_log_rho for this:
 ```python
 co_factors = 3 * 5 * 7 * 137 * 593 * 24337 * 25589 * 3637793 * 5733569 * 106831998530025000830453 * 1975901744727669147699767
 
