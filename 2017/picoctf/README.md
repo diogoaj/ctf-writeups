@@ -48,8 +48,8 @@ List of the challenges:
 	* **[110] A Happy Union**
 	* [[125] No Eyes](https://github.com/diogoaj/ctf-writeups/tree/master/2017/picoctf/web-exploitation/NoEyes-125)
 	* **[180] TW_GR_E3_GtI**
-	* **[175] A Kaley Ceilidh**
-	* **[200] TW_GR_E4_STW**
+	* *[175] A Kaley Ceilidh*
+	* *[200] TW_GR_E4_STW*
 * Binary Exploitation
 	* **[40] Bash Loop**
 	* **[40] Just No**
