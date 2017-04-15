@@ -7,7 +7,7 @@ Hint:
 
 For this problem, an image is given and we are asked to find the information about the image's location. If we open up the image properties, we can easily find tha latitude and the longitude values. 
 ```
-Latitude: 72
+Latitude: 77
 Longitude: 172
 ```
 
@@ -28,5 +28,5 @@ GPS Position                    : 77 deg 0' 0.00", 172 deg 0' 0.00"
 ```
 Combining the comment with the latitude and longitude we get the full flag:
 ```
-flag_2_meta_4_me_72_172_736c
+flag_2_meta_4_me_77_172_736c
 ```
