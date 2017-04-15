@@ -1,7 +1,7 @@
 # Picoctf 2017
 
 * [Solved](https://github.com/diogoaj/ctf-writeups/tree/master/2017/picoctf)
-* *Unsolved during the competition*
+* *Unsolved*
 * **Missing write up**
 
 List of the challenges:
