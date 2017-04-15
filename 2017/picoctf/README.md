@@ -9,7 +9,7 @@ List of the challenges:
 * Forensics
 	* **[50] Digital Camouflage**
 	* **[50] Special Agent User**
-	* **[70] Meta Find Me**
+	* [[70] Meta Find Me](https://github.com/diogoaj/ctf-writeups/tree/master/2017/picoctf/forensics/MetaFindMe-70)
 	* [[75] Little School Bus](https://github.com/diogoaj/ctf-writeups/tree/master/2017/picoctf/forensics/LittleSchoolBus-75)
 	* **[80] Just Keyp Trying**
 	* [[140] Connect the Wigle](https://github.com/diogoaj/ctf-writeups/tree/master/2017/picoctf/forensics/ConnectTheWigle-140)
