@@ -27,7 +27,7 @@ List of the challenges:
 	* [[120] Broadcast](https://github.com/diogoaj/ctf-writeups/tree/master/2017/picoctf/cryptography/Broadcast-120)
 	* [[120] smallRSA](https://github.com/diogoaj/ctf-writeups/tree/master/2017/picoctf/cryptography/smallRSA-120)
 	* [[140] SmallSign](https://github.com/diogoaj/ctf-writeups/tree/master/2017/picoctf/cryptography/smallSign-140)
-	* *[190] Encrypted Shell*
+	* [[190] Encrypted Shell](https://github.com/diogoaj/ctf-writeups/tree/master/2017/picoctf/cryptography/EncryptedShell-190)
 	* [[200] ECC2](https://github.com/diogoaj/ctf-writeups/tree/master/2017/picoctf/cryptography/ECC2-200)
 * Reverse Engineering
 	* [[20] Hex2Raw](https://github.com/diogoaj/ctf-writeups/tree/master/2017/picoctf/reverse-engineering/Hex2Raw)
