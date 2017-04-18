@@ -171,7 +171,7 @@ def read_encrypted(KEY, data):
 K = pow(B,a,p)
 KEY = sha256(str(K)).digest()
 
-print(read_encrypted(KEY, data))
+print(read_encrypted(KEY, pw))
 ```
 Which returns:
 ```
