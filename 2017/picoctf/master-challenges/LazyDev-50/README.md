@@ -18,7 +18,7 @@ Right in the html we have this:
 It seems to be a local script. Can we find it?
 On Sources, there's the static folder with the script inside.
 
-http://imgur.com/a/rEz3A
+![client code](http://imgur.com/a/rEz3A)
 
 Looking at the code, there's a function (validate) always returning false.
 ```
@@ -33,7 +33,7 @@ function validate(pword){
   return true;
 }
 ```
-Now we can submit again and it will give us the flag.
+Now we can save it, and submit again to get the flag.
 
 Flag:
 ```
