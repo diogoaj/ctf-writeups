@@ -18,7 +18,7 @@ Right in the html we have this:
 It seems to be a local script. Can we find it?
 On Sources, there's the static folder with the script inside.
 
-![client code](http://imgur.com/a/rEz3A)
+http://imgur.com/a/rEz3A
 
 Looking at the code, there's a function (validate) always returning false.
 ```
