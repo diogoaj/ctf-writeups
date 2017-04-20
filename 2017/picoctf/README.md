@@ -55,7 +55,7 @@ List of the challenges:
 	* **[40] Just No**
 	* [[55] Shellz](https://github.com/diogoaj/ctf-writeups/tree/master/2017/picoctf/binary-exploitation/Shellz-55)
 	* [[70] Shells](https://github.com/diogoaj/ctf-writeups/tree/master/2017/picoctf/binary-exploitation/Shells-70)
-	* [[75] Guess The Number](https://github.com/diogoaj/ctf-writeups/tree/master/2017/picoctf/binary-exploitation/Guess-the-number-75)
+	* [[75] Guess The Number](https://github.com/diogoaj/ctf-writeups/tree/master/2017/picoctf/binary-exploitation/GuessTheNumber-75)
 	* [[75] Ive Got a Secret](https://github.com/diogoaj/ctf-writeups/tree/master/2017/picoctf/binary-exploitation/IveGotASecret-75)
 	* **[80] Flagsay 1**
 	* [[95] VR Gear Console](https://github.com/diogoaj/ctf-writeups/tree/master/2017/picoctf/binary-exploitation/VRGearConsole-95)
