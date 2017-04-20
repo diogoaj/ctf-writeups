@@ -34,7 +34,7 @@ List of the challenges:
 	* [[20] Raw2Hex](https://github.com/diogoaj/ctf-writeups/tree/master/2017/picoctf/reverse-engineering/Raw2Hex)
 	* **[60] A Thing Called The Stack**
 	* **[75] Programmers Assemble**
-	* **[100] JSut Duck It Up**
+	* [[100] Jsut Duck It Up](https://github.com/diogoaj/ctf-writeups/tree/master/2017/picoctf/reverse-engineering/JSutDuckItUpe-100)
 	* **[115] Coffee**
 	* **[165] Much Ado About Hacking**
 	* *[140] Mips*
