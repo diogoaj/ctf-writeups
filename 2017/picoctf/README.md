@@ -70,7 +70,7 @@ List of the challenges:
 	* **[10] Internet Kitties**
 	* **[10] Piazza**
 	* **[20] Leaf of the Tree**
-	* **[20] looooong**
+	* [[20] Looooong](https://github.com/diogoaj/ctf-writeups/tree/master/2017/picoctf/misc/Looooong-20)
 	* **[30] Leaf of the Forest**
 	* **[30] WorldChat**
 	* **[55] Yarn**
