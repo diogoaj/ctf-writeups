@@ -30,11 +30,11 @@ List of the challenges:
 	* [[190] Encrypted Shell](https://github.com/diogoaj/ctf-writeups/tree/master/2017/picoctf/cryptography/EncryptedShell-190)
 	* [[200] ECC2](https://github.com/diogoaj/ctf-writeups/tree/master/2017/picoctf/cryptography/ECC2-200)
 * Reverse Engineering
-	* [[20] Hex2Raw](https://github.com/diogoaj/ctf-writeups/tree/master/2017/picoctf/reverse-engineering/Hex2Raw)
-	* [[20] Raw2Hex](https://github.com/diogoaj/ctf-writeups/tree/master/2017/picoctf/reverse-engineering/Raw2Hex)
+	* [[20] Hex2Raw](https://github.com/diogoaj/ctf-writeups/tree/master/2017/picoctf/reverse-engineering/Hex2Raw-20)
+	* [[20] Raw2Hex](https://github.com/diogoaj/ctf-writeups/tree/master/2017/picoctf/reverse-engineering/Raw2Hex-20)
 	* **[60] A Thing Called The Stack**
 	* **[75] Programmers Assemble**
-	* **[100] JSut Duck It Up**
+	* [[100] Jsut Duck It Up](https://github.com/diogoaj/ctf-writeups/tree/master/2017/picoctf/reverse-engineering/JSutDuckItUpe-100)
 	* **[115] Coffee**
 	* **[165] Much Ado About Hacking**
 	* *[140] Mips*
@@ -55,10 +55,10 @@ List of the challenges:
 	* **[40] Just No**
 	* [[55] Shellz](https://github.com/diogoaj/ctf-writeups/tree/master/2017/picoctf/binary-exploitation/Shellz-55)
 	* [[70] Shells](https://github.com/diogoaj/ctf-writeups/tree/master/2017/picoctf/binary-exploitation/Shells-70)
-	* [[75] Guess The Number](https://github.com/diogoaj/ctf-writeups/tree/master/2017/picoctf/binary-exploitation/Guess-the-number-75)
-	* **[75] Ive Got A Secret**
+	* [[75] Guess The Number](https://github.com/diogoaj/ctf-writeups/tree/master/2017/picoctf/binary-exploitation/GuessTheNumber-75)
+	* [[75] Ive Got a Secret](https://github.com/diogoaj/ctf-writeups/tree/master/2017/picoctf/binary-exploitation/IveGotASecret-75)
 	* **[80] Flagsay 1**
-	* **[95] VR Gear Console**
+	* [[95] VR Gear Console](https://github.com/diogoaj/ctf-writeups/tree/master/2017/picoctf/binary-exploitation/VRGearConsole-95)
 	* *[125] Config Console*
 	* *[150] Enter The Matrix*
 	* *[200] Chat Logger*
@@ -74,9 +74,9 @@ List of the challenges:
 	* **[30] Leaf of the Forest**
 	* **[30] WorldChat**
 	* **[55] Yarn**
-	* **[60] Mystery Box**
+	* [[60] Mystery Box](https://github.com/diogoaj/ctf-writeups/tree/master/2017/picoctf/misc/MysteryBox-60)
 * Master Challenges
-	* **[50] Lazy Dev**
+	* [[50] Lazy Dev](https://github.com/diogoaj/ctf-writeups/tree/master/2017/picoctf/master-challenges/LazyDev-50)
 	* [[100] Missing Identity](https://github.com/diogoaj/ctf-writeups/tree/master/2017/picoctf/master-challenges/MissingIdentity-100)
 	* **[125] WAR**
 	* [[175] weirderRSA](https://github.com/diogoaj/ctf-writeups/tree/master/2017/picoctf/master-challenges/weirderRSA-175)
