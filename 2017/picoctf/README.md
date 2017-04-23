@@ -68,7 +68,7 @@ List of the challenges:
 	* *[225] Contact Helper*
 * Misc
 	* **[10] Internet Kitties**
-	* **[10] Piazza**
+	* [[10] Piazza](https://github.com/diogoaj/ctf-writeups/tree/master/2017/picoctf/misc/Piazza-10)
 	* **[20] Leaf of the Tree**
 	* [[20] Looooong](https://github.com/diogoaj/ctf-writeups/tree/master/2017/picoctf/misc/Looooong-20)
 	* **[30] Leaf of the Forest**
