@@ -1,4 +1,4 @@
-### JSut Duck It Upe - 100 points
+### JSut Duck It Up - 100 points
 
 > What in the world could this be?!?! file
 
