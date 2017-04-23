@@ -24,11 +24,11 @@ foo:
 ```
 All we have in the stack, when foo is called is:
 ```
-	ret addr	<= %esp
+    ret addr	<= %esp
 ```
 After that, the first 2 lines are saving %ebp, therefore we will have:
 ```
-	ret addr
+    ret addr
     saved ebp	<= %esp
 ```
 Then, we have 3 more push instructions. Both the save ebp and each push displace the stack pointer 4 bytes.
@@ -38,7 +38,7 @@ Because of that, we are now with a difference of 0x10.
 ```
 Now we have:
 ```
-	ret addr
+    ret addr
     saved ebp
     %edi
     %esi
@@ -46,13 +46,13 @@ Now we have:
 ```
 Finally, we are subtracting 0xb4 to the stack pointer (moving it even more):
 ```
-	ret addr
+    ret addr
     saved ebp
     %edi
     %esi
     %ebx
     ... (0xb4)
-    			<= %esp
+    		<= %esp
 ```
 Having as a difference:
 ```
