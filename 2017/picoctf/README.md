@@ -13,7 +13,7 @@ List of the challenges:
 	* [[75] Little School Bus](https://github.com/diogoaj/ctf-writeups/tree/master/2017/picoctf/forensics/LittleSchoolBus-75)
 	* **[80] Just Keyp Trying**
 	* [[140] Connect the Wigle](https://github.com/diogoaj/ctf-writeups/tree/master/2017/picoctf/forensics/ConnectTheWigle-140)
-	* **[100] Puzzlingly Accountable**
+	* [[100] Puzzlingly Accountable](https://github.com/diogoaj/ctf-writeups/tree/master/2017/picoctf/forensics/PuzzlinglyAccountable-100)
 * Cryptography
 	* **[20] Keyz**
 	* [[40] Substitute](https://github.com/diogoaj/ctf-writeups/tree/master/2017/picoctf/cryptography/Substitute-40)
