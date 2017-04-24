@@ -23,7 +23,7 @@ Still, we can't unzip the file just yet. In the central directory part of the zi
 
 ![image_2](http://i.imgur.com/tjeBUCG.png)
 
-Highlighted in the aboce image is what we have to change. It is the same steps we did above with the local header. Change the file size to 8 bytes and change the file name to ```flag.txt```.
+Highlighted in the above image is what we have to change. It is the same steps we did above with the local header. Change the file size to 8 bytes and change the file name to ```flag.txt```.
 
 After the fix, we can finally unzip the file and retrieve the flag:
 ```
