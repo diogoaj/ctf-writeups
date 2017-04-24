@@ -16,7 +16,7 @@ List of the challenges:
 	* **[100] Puzzlingly Accountable**
 * Cryptography
 	* **[20] Keyz**
-	* **[40] Substitute**
+	* [[40] Substitute](https://github.com/diogoaj/ctf-writeups/tree/master/2017/picoctf/cryptography/Substitute-40)
 	* **[50] Hash101**
 	* **[50] computeAES**
 	* **[50] computeRSA**
