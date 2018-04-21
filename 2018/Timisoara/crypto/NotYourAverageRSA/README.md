@@ -1,4 +1,4 @@
-### Not Your Average RSA - 100 points (59 solves)
+### Not Your Average RSA - 100 points (65 solves)
 
 >  Somebody told me this RSA factoring is MP complete... or was it NP?
 

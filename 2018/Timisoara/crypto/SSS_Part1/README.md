@@ -1,4 +1,4 @@
-### SSS Part 1 - 75 points (86 solves)
+### SSS Part 1 - 75 points (91 solves)
 
 >  3 math teachers agreed to a common secret password to access the exam answers. Luckily, one of them lost a note that seems related. They also talk all the time about some guy named Lagrange.
 >  

@@ -1,4 +1,4 @@
-### Hush Hush - 150 points (22 solves)
+### Hush Hush - 150 points (31 solves)
 
 >  Can I get a hash collision?
 >
