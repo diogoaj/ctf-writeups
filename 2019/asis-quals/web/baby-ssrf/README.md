@@ -28,7 +28,7 @@ Starting:
 Task Completed
 ```
 
-I got a hit with the endpoint `/soruce`. Accessing the endpoint displays the source code of the site:
+I got a hit with the endpoint `/source`. Accessing the endpoint displays the source code of the site:
 
 ```javascript
 const express = require("express");
