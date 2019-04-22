@@ -133,7 +133,7 @@ This prevents us from simply input `../flag` or bypass the filter with `%2e%2e/f
 The input %2e%2e/flag becomes %25%32%45%25%32%45/flag
 ```
 
-![burp_ssrf](https://github.com/diogoaj/ctf-writeups/tree/master/2019/asis-quals/web/baby-ssrf/baby_ssrf.png)
+![burp_ssrf](https://github.com/diogoaj/ctf-writeups/blob/master/2019/asis-quals/web/baby-ssrf/resources/baby_ssrf.png)
 
 
 Flag:
